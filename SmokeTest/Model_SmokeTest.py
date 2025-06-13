@@ -1,6 +1,7 @@
 import torch
 import sentencepiece as spm
-from Models.LatentMoE import LatentMoE
+
+from Models.AnalogGPT import AnalogGPT
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -13,30 +14,22 @@ def main():
     tokenizer.Load(r"C:\junha\Git\BFG_2B\Tokenizer\spm_bc.model")
 
     VOCAB_SIZE = tokenizer.GetPieceSize()
-    MAX_SEQ_LEN = 256
-    NUM_HEADS = 8
-    EMBED_DIM = 512
-    LATENT_DIM = 128
-    MLP_DIM = 1024
-    NUM_LAYERS = 6
+    MAX_SEQ_LEN = 32
+    NUM_HEADS = 1
+    EMBED_DIM = 8
+    MLP_DIM = 32
+    NUM_LAYERS = 1
     DROPOUT = 0.1
-    NUM_EXPERTS = 5
-    EXPERTS_PER_TOKEN = 1
-    BALANCE_LOSS_WEIGHT = 0.01
 
 
-    model = LatentMoE(
-        vocab_size=VOCAB_SIZE,
+    model = AnalogGPT(
         max_seq_len=MAX_SEQ_LEN,
-        embed_dim=EMBED_DIM,
-        latent_dim=LATENT_DIM,
-        mlp_dim=MLP_DIM,
-        num_layers=NUM_LAYERS,
-        dropout=DROPOUT,
         num_heads=NUM_HEADS,
-        num_experts=NUM_EXPERTS,
-        experts_per_token=EXPERTS_PER_TOKEN,
-        balance_loss_weight=BALANCE_LOSS_WEIGHT
+        embedding_dim=EMBED_DIM,
+        mlp_dropout=DROPOUT,
+        num_layers=NUM_LAYERS,
+        mlp_size = MLP_DIM,
+        vocab_size=100
     ).to(device)
 
     model.eval()
@@ -54,7 +47,7 @@ def main():
     lm_loss = torch.nn.functional.cross_entropy(
         logits.view(-1, VOCAB_SIZE), targets.view(-1)
     )
-    total_loss = lm_loss + BALANCE_LOSS_WEIGHT * balance_loss
+    total_loss = lm_loss
     total_loss.backward()
     optimizer.step()
 

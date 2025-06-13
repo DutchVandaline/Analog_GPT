@@ -29,16 +29,12 @@ def main():
     LR = 1e-4
     ACCUM_STEPS = 8
 
-    MAX_SEQ_LEN = 256
-    NUM_HEADS = 4
-    EMBED_DIM = 192
-    LATENT_DIM = 64
-    MLP_DIM = 512
-    NUM_LAYERS = 3
+    MAX_SEQ_LEN = 32
+    NUM_HEADS = 1
+    EMBED_DIM = 8
+    MLP_DIM = 32
+    NUM_LAYERS = 1
     DROPOUT = 0.1
-    NUM_EXPERTS = 4
-    EXPERTS_PER_TOKEN = 1
-    BALANCE_LOSS_WEIGHT = 0.01
 
     # ---------- 토크나이저 ----------
     tokenizer = spm.SentencePieceProcessor()
