@@ -58,7 +58,8 @@ class MaskedMultiHeadSelfAttentionBlock(nn.Module):
             value=x,
             attn_mask=casual_mask,  # Causal mask for self-attention
             key_padding_mask=key_padding_mask,  # Padding mask
-            need_weights=False
+            need_weights=True,
+            average_attn_weights=False,
         )
 
         return attn_output
