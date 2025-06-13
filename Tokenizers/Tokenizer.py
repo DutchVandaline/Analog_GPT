@@ -17,23 +17,25 @@ def create_sample_file(dataset_name, split, config_name=None, output_file=None, 
 
     with open(output_file, "w", encoding="utf-8") as f:
         for i, row in zip(range(max_samples), stream):
-            text = row["content"].replace("\n", " ").strip()
+            # WikiText-2는 'text' 필드에 원문이 들어 있습니다
+            text = row["text"].replace("\n", " ").strip()
             if text:
                 f.write(text + "\n")
 
-# RefinedWeb 샘플 생성
+# WikiText-2 샘플 생성
 create_sample_file(
-    "tiiuae/falcon-refinedweb",
-    "train",
-    output_file="refined_sample.txt",
-    max_samples=1_000_000,
+    dataset_name="wikitext",
+    config_name="wikitext-2-raw-v1",
+    split="train",
+    output_file="wikitext2_sample.txt",
+    max_samples=1_000_000,   # 필요에 따라 줄여도 좋습니다
 )
 
-# SentencePiece 모델 학습 (vocab_size=35000)
+# SentencePiece 모델 학습 (vocab_size=150)
 spm.SentencePieceTrainer.Train(
-    input=["refined_sample.txt"],
-    model_prefix="spm_refined",
-    vocab_size=35000,
+    input=["wikitext2_sample.txt"],
+    model_prefix="spm_wiki2",
+    vocab_size=150,
     character_coverage=0.9995,
     model_type="bpe",
     pad_id=0,
@@ -45,8 +47,8 @@ spm.SentencePieceTrainer.Train(
 
 # 임시 파일 삭제
 try:
-    os.remove("refined_sample.txt")
+    os.remove("wikitext2_sample.txt")
 except FileNotFoundError:
     pass
 
-print("SentencePiece 모델 생성 완료 → spm_refined.model / spm_refined.vocab")
+print("SentencePiece 모델 생성 완료 → spm_wiki2.model / spm_wiki2.vocab")
