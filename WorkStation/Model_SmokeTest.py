@@ -13,12 +13,12 @@ def main():
     tokenizer = spm.SentencePieceProcessor()
     tokenizer.Load(r"C:\junha\Git\BFG_2B\Tokenizer\spm_bc.model")
 
-    VOCAB_SIZE = 150
+    VOCAB_SIZE = 300
     MAX_SEQ_LEN = 16
-    NUM_HEADS = 1
-    EMBED_DIM = 8
-    MLP_DIM = 32
-    NUM_LAYERS = 1
+    NUM_HEADS = 3
+    EMBED_DIM = 12
+    MLP_DIM = 48
+    NUM_LAYERS = 4
     DROPOUT = 0.1
 
 
