@@ -62,30 +62,37 @@ def generate(model: AnalogGPT,
 
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    MODEL_CKPT = r"C:\junha\Git\Analog_GPT\Checkpoints\AnalogGPT_3k\3K_model_epoch_30.pt"
+    MODEL_CKPT = r"C:\junha\Git\Analog_GPT\Checkpoints\AnalogGPT_15k\15K_model_epoch_75.pt"
     SP_MODEL   = r"C:\junha\Git\Analog_GPT\Tokenizers\spm_wiki2.model"
 
     tokenizer = spm.SentencePieceProcessor()
     tokenizer.Load(SP_MODEL)
     VOCAB_SIZE = tokenizer.GetPieceSize()
 
+    MAX_SEQ_LEN = 16
+    NUM_HEADS = 3
+    EMBED_DIM = 12
+    MLP_DIM = 48
+    NUM_LAYERS = 4
+    DROPOUT = 0.1
+
     model = load_model(
         checkpoint_path=MODEL_CKPT,
         vocab_size=VOCAB_SIZE,
-        max_seq_len=16,
-        num_heads=1,
-        embed_dim=8,
-        mlp_dim=32,
-        num_layers=1,
-        dropout=0.1,
+        max_seq_len=MAX_SEQ_LEN,
+        num_heads=NUM_HEADS,
+        embed_dim=EMBED_DIM,
+        mlp_dim=MLP_DIM,
+        num_layers=NUM_LAYERS,
+        dropout=DROPOUT,
         device=device,
     )
 
-    prompt = "The history of artificial intelligence"
+    prompt = "The cat is"
     result = generate(
         model, tokenizer, prompt,
         max_generated=50,
-        temperature=0.8,
+        temperature=0.5,
         top_k=10,
         top_p=0.9,
         device=device

@@ -27,9 +27,9 @@ def main():
     BATCH_SIZE = 256
     STRIDE = 256
     NUM_WORKERS = 0
-    NUM_EPOCHS = 30
+    NUM_EPOCHS = 200
     LR = 1e-3
-    ACCUM_STEPS = 8
+    ACCUM_STEPS = 1
 
     MAX_SEQ_LEN = 16
     NUM_HEADS = 3
@@ -102,7 +102,7 @@ def main():
     loss_fn = nn.CrossEntropyLoss(ignore_index=0, reduction="mean")
 
     # 체크포인트 디렉토리
-    ckpt_dir = r"C:\junha\Git\Analog_GPT\Checkpoints\AnalogGPT_3k"
+    ckpt_dir = r"C:\junha\Git\Analog_GPT\Checkpoints\AnalogGPT_15k"
     os.makedirs(ckpt_dir, exist_ok=True)
 
     epoch_iter = tqdm(range(1, NUM_EPOCHS + 1), desc="Epochs")
@@ -127,7 +127,7 @@ def main():
         torch.cuda.empty_cache()
         torch.save(
             model.state_dict(),
-            os.path.join(ckpt_dir, f"3K_model_epoch_{epoch}.pt")
+            os.path.join(ckpt_dir, f"15K_model_epoch_{epoch}.pt")
         )
 
 if __name__ == "__main__":
