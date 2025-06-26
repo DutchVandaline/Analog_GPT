@@ -72,7 +72,7 @@ I created **AnalogGPT** which is a fully paper-based version of GPT built from s
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Key Features
-📍 **[No GPU]** You don't need a GPU or even computer to run this model.<br/>
+🖥️ **[No GPU]** You don't need a GPU or even computer to run this model.<br/>
 💡 **[Learn how Transformer works]** With calculating with your bare hands, you can understand what attention is.<br/>
 🔧 **[Next Token Prediction]** This is dedicated for next token prediction task.<br/>
 
@@ -84,7 +84,7 @@ I created **AnalogGPT** which is a fully paper-based version of GPT built from s
 -->
 ### Built With
 
-* [![Flutter][Flutter]][Flutter-url]
+* [![Pytorch][Pytorch]][Pytorch-url]
 * [![Gemini][Gemini]][Gemini-url]
 * [![AndroidStudio][AndroidStudio]][AndroidStudio-url]
 * [![Figma][Figma]][Figma-url]
@@ -157,26 +157,19 @@ Project Link: [https://github.com/DutchVandaline?tab=repositories](https://githu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/DutchVandaline/Wait_However.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/DutchVandaline/Analog_GPT.svg?style=for-the-badge
 [contributors-url]: https://github.com/DutchVandaline/Wait_However/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/DutchVandaline/Wait_However.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/DutchVandaline/Analog_GPT.svg?style=for-the-badge
 [forks-url]: https://github.com/DutchVandaline/Wait_However/network/members
-[stars-shield]: https://img.shields.io/github/stars/DutchVandaline/Wait_However.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/DutchVandaline/Analog_GPT.svg?style=for-the-badge
 [stars-url]: https://github.com/DutchVandaline/Wait_However/stargazers
-[issues-shield]: https://img.shields.io/github/issues/DutchVandaline/Wait_However.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/DutchVandaline/Analog_GPT.svg?style=for-the-badge
 [issues-url]: https://github.com/DutchVandaline/Wait_However/issues
 
-[Flutter]: https://img.shields.io/badge/Flutter-0c469c?style=for-the-badge&logo=flutter&logoColor=white
-[Flutter-url]: https://flutter.dev
-[Django]: https://img.shields.io/badge/Django-003b2a?style=for-the-badge&logo=django&logoColor=white
-[Django-url]: https://www.djangoproject.com
-[Gemini]: https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white
-[Gemini-url]: https://gemini.google.com/?hl=ko
-[Flutter-url]: https://gemini.google.com/?hl=ko
-[AndroidStudio]: https://img.shields.io/badge/Android_Studio-6fd089?style=for-the-badge&logo=androidstudio&logoColor=white
-[AndroidStudio-url]: https://developer.android.com/studio?hl=ko
-[Figma]: https://img.shields.io/badge/Figma-f83702?style=for-the-badge&logo=figma&logoColor=white
-[Figma-url]: https://www.figma.com/ko-kr/
+[Pytorch]: https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
+[Pytorch-url]: https://pytorch.org/
+[Pycharm]: https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white
+[Pycharm-url]: https://www.jetbrains.com/pycharm/
 
 
 
