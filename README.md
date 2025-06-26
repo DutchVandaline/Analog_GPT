@@ -85,9 +85,7 @@ I created **AnalogGPT** which is a fully paper-based version of GPT built from s
 ### Built With
 
 * [![Pytorch][Pytorch]][Pytorch-url]
-* [![Gemini][Gemini]][Gemini-url]
-* [![AndroidStudio][AndroidStudio]][AndroidStudio-url]
-* [![Figma][Figma]][Figma-url]
+* [![Pycharm][Pycharm]][Pycharm-url]
   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,22 +106,24 @@ I created **AnalogGPT** which is a fully paper-based version of GPT built from s
 -->
 ### Prerequisites
 
-You need Android Studio and dart, flutter plugin installed.
-If you are using mac, you need to set up XCode and Simulator.
+Before using, please hit star on this repo!<br>
+You can download the PDF from github<br>
+If you want to modify the code or train more, follow the following steps.
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/DutchVandaline/Wait_However.git
+   git clone https://github.com/DutchVandaline/Analog_GPT.git
    ```
-2. Excecute on Android studio
+2. Excecute on PyCharm
+3. Use your code to modify the model.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
 ## Contributing
-If you liked this app, please buy me a coffee! It helps me do creative stuffs. <br/> <br/>
+If you liked this project, please buy me a coffee! It helps me do creative stuffs. <br/> <br/>
 <a href="https://www.buymeacoffee.com/PequodApp" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px; width: 217px;" >
 </a>
