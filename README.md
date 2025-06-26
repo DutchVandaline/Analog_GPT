@@ -19,19 +19,19 @@
   <h3 align="center">AnalogGPT</h3>
 
   <p align="center">
-    "AnalogGPT" is a Large Language Model that runs fully on the paper.
+    AnalogGPT is a Large Language Model that runs fully on the paper.
     <br />
     <a href=""> <!--앱스토어 url href="여기에" 부분에 추가-->
     </a>
     <br />
-    <a href="https://github.com/DutchVandaline/Wait_However"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DutchVandaline/Analog_GPT"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DutchVandaline/Wait_However">View Demo</a>
+    <a href="https://github.com/DutchVandaline/Analog_GPT">View Demo</a>
     ·
-    <a href="https://github.com/DutchVandaline/Wait_However/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/DutchVandaline/Analog_GPT/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/DutchVandaline/Wait_However/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/DutchVandaline/Analog_GPT/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -64,25 +64,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <!-- 이미지 삽입 ![Pequod](https://github.com/user-attachments/assets/8bf45ee3-1001-459a-8db2-f32632e20dfc)-->
-🔭 “Propaganda can be achieved with just one sentence, but refutation requires an enormous amount of evidence.” This phrase, often attributed to Paul Joseph Goebbels, the Nazi Germany Minister of Propaganda and Enlightenment and a so-called "master of propaganda," ironically, was never actually spoken by him. This sentence itself serves as an excellent example of the dangers of propaganda and the importance of verifying sources. The public tends to trust statements attributed to individuals recognized as authorities in a particular field without questioning their authenticity. This tendency creates an environment where false information can easily spread.<br/>
+🥫 These days, a lot of companies and even countries are trying to get their hands on GPUs. Modern AI needs a ton of GPU power for calculation. But imagine this — what if there’s a large language model that doesn’t need a GPU at all? Or even run *without* a computer?
+I created **AnalogGPT** which is a fully paper-based version of GPT built from scratch.<br/>
 
-🚀 **Wait, However** is designed to help users develop a balanced perspective by providing articles with diverse viewpoints. By presenting perspectives that contrast with the tone of a specific article, as well as offering a variety of opinions, the platform enables users to understand events from multiple angles. This approach prevents bias caused by fake news circulating abroad and supports the development of critical thinking among the public. Additionally, the platform incorporates an image verification system to evaluate reliability, filtering out false or low-credibility information. As a result, users are exposed to high-quality information, empowering them to make objective judgments.
+🚀 Via **AnalogGPT** you can fully understand how Generative Pretrained Transformer works by calculating with your bare hands. You are becoming a GPU that calculates these numbers. As the model size is 15K, it's representation capacity is limited. I'll notify the hyper parameters below. Feel free to modify my code and test various things.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--
-## Development Blog
-✒️ I am writing blog, 'Tech Blog, I guess?'. It's updating and progressing. <br><br>
-<a href="https://dutchvandaline.github.io/BottleCamp-Day1/">
-    <img src="https://img.shields.io/badge/Github Blog BottleCamp Day 1-171515?style=for-the-badge&logo=github&logoColor=white"
-        style="height : auto; margin-left : 8px; margin-right : 8px;"/>
-</a>
--->
-
 ## Key Features
-📍 **[Fact-checking and Diverse Perspective Offering]** I've used Gemini to analyze the article.<br/>
-💡 **[User-Friendly UI/UX Design]** Simple and straightforward interface to facilitate exploration of diverse perspectives.<br/>
-🔧 **[Fact Extractor]** AI extarcts the fact and makes it easy to view.<br/>
+📍 **[No GPU]** You don't need a GPU or even computer to run this model.<br/>
+💡 **[Learn how Transformer works]** With calculating with your bare hands, you can understand what attention is.<br/>
+🔧 **[Next Token Prediction]** This is dedicated for next token prediction task.<br/>
 
 
 <!--
