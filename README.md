@@ -10,15 +10,6 @@
 
 
 <!-- PROJECT LOGO -->
-<p align="center">
-  <a href="https://youtu.be/6gqxgyYj3Hs" target="_blank">
-    <img src="http://img.youtube.com/vi/6gqxgyYj3Hs/0.jpg" width="600">
-  </a>
-  <br>
-  <sub>This is the Youtube Video about AnalogGPT!</sub>
-</p>
-
-
   <h3 align="center">AnalogGPT</h3>
 
   <p align="center">
@@ -40,9 +31,12 @@
 
 <p align="center">
   <a href="https://youtu.be/6gqxgyYj3Hs" target="_blank">
-    <img src="http://img.youtube.com/vi/6gqxgyYj3Hs/0.jpg" width="800">
+    <img src="http://img.youtube.com/vi/6gqxgyYj3Hs/0.jpg" width="600">
   </a>
+  <br>
+  <sub>This is the Youtube Video about AnalogGPT!</sub>
 </p>
+
 
 <br>
 <!-- TABLE OF CONTENTS -->
