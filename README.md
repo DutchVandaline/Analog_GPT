@@ -64,6 +64,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <!-- 이미지 삽입 ![Pequod](https://github.com/user-attachments/assets/8bf45ee3-1001-459a-8db2-f32632e20dfc)-->
+🚀 To download the PDF file, please click `AnalogGPT.pdf` and press `download raw file` button on the upper right corner.
+
 🥫 These days, a lot of companies and even countries are trying to get their hands on GPUs. Modern AI needs a ton of GPU power for calculation. But imagine this — what if there’s a large language model that doesn’t need a GPU at all? Or even run *without* a computer?
 I created **AnalogGPT** which is a fully paper-based version of GPT built from scratch.<br/>
 
