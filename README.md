@@ -106,8 +106,8 @@ I created **AnalogGPT** which is a fully paper-based version of GPT built from s
 -->
 ### Prerequisites
 
-Before using, please hit star on this repo!<br>
-You can download the PDF from github<br>
+💫 Before using, please hit star on this repo!<br>
+📜 You can download the PDF from github<br>
 If you want to modify the code or train more, follow the following steps.
 ### Installation
 
