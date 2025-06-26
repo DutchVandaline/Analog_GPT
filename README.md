@@ -22,8 +22,6 @@
     "AnalogGPT" is a Large Language Model that runs fully on the paper.
     <br />
     <a href=""> <!--앱스토어 url href="여기에" 부분에 추가-->
-    <img src="https://img.shields.io/badge/Pdf-0D96F6?style=flat-square&logo=pdf&logoColor=white"
-        style="height : auto; margin-left : 8px; margin-right : 8px;"/>
     </a>
     <br />
     <a href="https://github.com/DutchVandaline/Wait_However"><strong>Explore the docs »</strong></a>
