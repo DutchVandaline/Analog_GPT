@@ -10,11 +10,14 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/DutchVandaline/Analog_GPT">
-    <img src="https://github.com/user-attachments/assets/b27189f7-4e6c-43e1-a136-d24a59a9b74d" alt="Logo" width="100" height="100">
+<p align="center">
+  <a href="https://youtu.be/6gqxgyYj3Hs" target="_blank">
+    <img src="http://img.youtube.com/vi/6gqxgyYj3Hs/0.jpg" width="600">
   </a>
+  <br>
+  <sub>This is the Youtube Video about AnalogGPT!</sub>
+</p>
+
 
   <h3 align="center">AnalogGPT</h3>
 
