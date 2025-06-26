@@ -34,14 +34,13 @@
     <a href="https://github.com/DutchVandaline/Analog_GPT/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-<br>
 
+🖥️ Youtube Link:
 <p align="center">
   <a href="https://youtu.be/6gqxgyYj3Hs" target="_blank">
     <img src="http://img.youtube.com/vi/6gqxgyYj3Hs/0.jpg" width="800">
   </a>
 </p>
-
 
 <br>
 <!-- TABLE OF CONTENTS -->
