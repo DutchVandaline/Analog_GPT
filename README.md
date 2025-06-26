@@ -37,8 +37,7 @@
 <br>
 
 
-<iframe width="1317" height="741" src="https://www.youtube.com/embed/6gqxgyYj3Hs" title="[Analog GPT] I made a GPT that doesn&#39;t need GPU and even a computer!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+[![Video Label](http://img.youtube.com/vi/6gqxgyYj3Hs/0.jpg)](https://youtu.be/6gqxgyYj3Hs)
 
 <br>
 <!-- TABLE OF CONTENTS -->
