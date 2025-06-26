@@ -36,8 +36,9 @@
 </div>
 <br>
 
-
-[![Video Label](http://img.youtube.com/vi/6gqxgyYj3Hs/0.jpg)](https://youtu.be/6gqxgyYj3Hs)
+<a href="https://youtu.be/6gqxgyYj3Hs" target="_blank">
+  <img src="http://img.youtube.com/vi/6gqxgyYj3Hs/0.jpg" width="600">
+</a>
 
 <br>
 <!-- TABLE OF CONTENTS -->
