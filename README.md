@@ -34,9 +34,13 @@
     <a href="https://github.com/DutchVandaline/Analog_GPT/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
+<br>
+
 
 <iframe width="1317" height="741" src="https://www.youtube.com/embed/6gqxgyYj3Hs" title="[Analog GPT] I made a GPT that doesn&#39;t need GPU and even a computer!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+<br>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
