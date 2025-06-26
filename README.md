@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DutchVandaline/Analog_GPT">
-    <img src="https://github.com/user-attachments/assets/7c4e5e87-3ce8-4e3f-ad18-d8e4512859c4" alt="Logo" width="100" height="100">
+    <img src="https://github.com/user-attachments/assets/b27189f7-4e6c-43e1-a136-d24a59a9b74d" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">AnalogGPT</h3>
